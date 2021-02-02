@@ -1,6 +1,10 @@
-function doubleIt(num){
+const doubleIt = function MyNumber(num){
     return num*2
 }
 
-const result = doubleIt(8)
+// function doubleIt(num){
+//     return num*2
+// }
+
+const result = doubleIt(9)
 console.log(result);
