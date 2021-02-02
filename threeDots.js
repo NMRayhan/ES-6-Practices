@@ -18,3 +18,9 @@ console.log(result2);
 // const result4 = [result,result2,number2]
 const result4 = [...result, ...result2, ...number2]
 console.log(result4);
+const Taka = [500,600,350,200,900,650,400]
+console.log(Math.max(...Taka));
+console.log(Math.min(...Taka));
+console.log(Math.floor(...Taka));
+console.log(Math.ceil(...Taka));
+console.log(Math.log(...Taka));
